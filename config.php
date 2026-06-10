@@ -7,9 +7,9 @@
 
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'dbstorage22360859083');
-define('DB_USER', 'dbusr22360859083');
-define('DB_PASS', 'qduvysAZXUdG');
-define('DB_CHARSET', 'utf8mb4');
+define('DB_USER', 'root'); 
+define('DB_PASS', ''); 
+define('DB_CHARSET', 'utf8mb4'); 
 
 // Site base path — hosting'deki kök dizin
 define('BASE_PATH', '/~st22360859083');

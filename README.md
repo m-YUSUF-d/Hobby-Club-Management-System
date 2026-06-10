@@ -1,6 +1,6 @@
 # 🎯 Hobi Kulübü Yönetim Sistemi
 
-PHP, MySQL ve Bootstrap 5 ile geliştirilmiş web tabanlı bir hobi kulübü yönetim uygulaması.
+PHP, MySQL ve Bootstrap 5 ile geliştirilmiş web tabanlı bir hobi kulübü yönetim uygulaması.  
 [🌐 Canlı ortam linki:](http://95.130.171.20/~st22360859083/auth/login.php)
 
 ---

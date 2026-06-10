@@ -1,0 +1,21 @@
+# Environment & secrets
+config.php
+
+# Eğer başka config dosyaları da olacaksa
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependencies
+vendor/
+node_modules/
