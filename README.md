@@ -49,14 +49,14 @@ PHP, MySQL ve Bootstrap 5 ile geliştirilmiş web tabanlı bir hobi kulübü yö
 
 **1. Projeyi İndir**
 ```bash
-git clone https://github.com/KULLANICI_ADINIZ/hobi-kulubu.git
+git clone https://github.com/m-YUSUF-d/Hobby-Club-Management-System.git
 ```
 
 **2. Dosyaları Sunucuya Koy**
 
 Yerel geliştirme için:
 ```
-C:\xampp\htdocs\hobi_kulubu\
+C:\xampp\htdocs\Hobby-Club-Management-System\
 ```
 
 **3. Veritabanını Oluştur**
@@ -137,30 +137,16 @@ Hobby Club Management System
 
 ## 📸 Ekran Görüntüleri
 
-> Ekran görüntülerini ekledikten sonra aşağıdaki satırları güncelleyin.
-
 ### Giriş Sayfası
-![Giriş Sayfası](screenshots/login.png)
+![Giriş Sayfası](images/image1.png)
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](images/image2.png)
 
 ---
 
 ## 🎥 Video Tanıtım
 
-> Uygulamayı tanıttığınız videoyu YouTube'a veya Google Drive'a yükledikten sonra aşağıdaki bağlantıyı güncelleyin.
+📺 [Uygulama Tanıtım Videosu](https://youtu.be/6t6k1DZNtD4)
 
-📺 [Uygulama Tanıtım Videosu](https://www.youtube.com/watch?v=VIDEO_ID)
 
----
-
-## 👤 Geliştirici
-
-**Ad Soyad** — [GitHub](https://github.com/KULLANICI_ADINIZ)
-
----
-
-## 📄 Lisans
-
-Bu proje bir ders ödevi kapsamında geliştirilmiştir.
