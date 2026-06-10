@@ -1,5 +1,5 @@
 <?php
-require_once 'config.php';
+require_once '../config.php';
 requireLogin();
 
 $pdo = getDB();
@@ -95,7 +95,7 @@ unset($_SESSION['flash']);
                     </span>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-outline-light btn-sm" href="logout.php"
+                    <a class="btn btn-outline-light btn-sm" href="../auth/logout.php"
                        onclick="return confirm('Çıkış yapmak istediğinize emin misiniz?')">
                         <i class="bi bi-box-arrow-right me-1"></i>Çıkış
                     </a>

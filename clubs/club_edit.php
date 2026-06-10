@@ -1,5 +1,5 @@
 <?php
-require_once 'config.php';
+require_once '../config.php';
 requireLogin();
 
 $pdo = getDB();
@@ -12,7 +12,7 @@ $club = $stmt->fetch();
 
 if (!$club) {
     $_SESSION['flash'] = 'Kulüp bulunamadı veya bu işlem için yetkiniz yok.';
-    header('Location: dashboard.php');
+    header('Location: /Hobby-Club-Management-System/clubs/dashboard.php');
     exit;
 }
 
@@ -62,7 +62,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $_SESSION['user_id']
         ]);
         $_SESSION['flash'] = "\"$name\" kulübü başarıyla güncellendi!";
-        header('Location: dashboard.php');
+        header('Location: /Hobby-Club-Management-System/clubs/dashboard.php');
         exit;
     }
 
@@ -94,7 +94,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!-- Navbar -->
 <nav class="navbar navbar-dark navbar-expand-lg mb-4">
     <div class="container">
-        <a class="navbar-brand fw-bold" href="dashboard.php">
+        <a class="navbar-brand fw-bold" href="/Hobby-Club-Management-System/clubs/dashboard.php">
             <i class="bi bi-people-fill me-2"></i>Hobi Kulübü
         </a>
         <div class="ms-auto d-flex align-items-center gap-2">

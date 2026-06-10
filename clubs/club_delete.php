@@ -1,5 +1,5 @@
 <?php
-require_once 'config.php';
+require_once '../config.php';
 requireLogin();
 
 $pdo = getDB();
@@ -18,6 +18,6 @@ if ($club) {
     $_SESSION['flash'] = 'Kulüp bulunamadı veya bu işlem için yetkiniz yok.';
 }
 
-header('Location: dashboard.php');
+header('Location: /Hobby-Club-Management-System/clubs/dashboard.php');
 exit;
 ?>

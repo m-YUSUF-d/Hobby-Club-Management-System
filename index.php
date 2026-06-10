@@ -1,11 +1,11 @@
 <?php
-require_once 'config.php';
+require_once '../auth/config.php';
 
 // Ana sayfa: giriş yapılmışsa dashboard, yoksa login'e yönlendir
 if (!empty($_SESSION['user_id'])) {
-    header('Location: dashboard.php');
+    header('Location: /Hobby-Club-Management-System/clubs/dashboard.php');
 } else {
-    header('Location: login.php');
+    header('Location: /Hobby-Club-Management-System/auth/login.php');
 }
 exit;
 ?>

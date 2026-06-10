@@ -78,7 +78,7 @@ define('DB_PASS', '');          // Kendi şifren
 
 **5. Uygulamayı Aç**
 ```
-http://localhost/hobi_kulubu/
+http://localhost/Hobby-Club-Management-System/
 ```
 
 > ⚠️ **Canlıya alırken** `config.php` içindeki veritabanı bilgilerini hosting bilgilerinizle güncelleyin.
@@ -88,18 +88,23 @@ http://localhost/hobi_kulubu/
 ## 📁 Dosya Yapısı
 
 ```
-hobi_kulubu/
+Hobby Club Management System
 │
-├── config.php          # Veritabanı bağlantısı ve yardımcı fonksiyonlar
-├── index.php           # Ana yönlendirici
-├── register.php        # Kullanıcı kayıt sayfası
-├── login.php           # Giriş sayfası
-├── logout.php          # Oturum kapatma
-├── dashboard.php       # Kulüp listesi ve istatistikler
-├── club_add.php        # Yeni kulüp ekleme formu
-├── club_edit.php       # Kulüp düzenleme formu
-├── club_delete.php     # Kulüp silme işlemi
-└── database.sql        # Veritabanı kurulum dosyası
+├── config.php              # DB + session + helper fonksiyonlar
+├── index.php               # giriş yönlendirme (login mi dashboard mu)
+│
+├── auth/                  # 🔐 kimlik doğrulama işlemleri
+│   ├── login.php
+│   ├── register.php
+│   └── logout.php
+│
+├── clubs/                 # 🏢 uygulama ana modülü
+│   ├── dashboard.php
+│   ├── club_add.php
+│   ├── club_edit.php
+│   └── club_delete.php
+│
+└── database.sql           # veritabanı kurulum dosyası
 ```
 
 ---

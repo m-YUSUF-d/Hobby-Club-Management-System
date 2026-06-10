@@ -1,5 +1,5 @@
 <?php
-require_once 'config.php';
+require_once '../config.php';
 requireLogin();
 
 $errors  = [];
@@ -48,7 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $member_count
         ]);
         $_SESSION['flash'] = "\"$name\" kulübü başarıyla eklendi!";
-        header('Location: dashboard.php');
+        header('Location: /Hobby-Club-Management-System/clubs/dashboard.php');
         exit;
     }
 }

@@ -1,5 +1,5 @@
 <?php
-require_once 'config.php';
+require_once '../config.php';
 redirectIfLoggedIn();
 
 $error = '';
@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             session_regenerate_id(true);
             $_SESSION['user_id']   = $user['id'];
             $_SESSION['username']  = $user['username'];
-            header('Location: dashboard.php');
+            header('Location: /Hobby-Club-Management-System/clubs/dashboard.php');
             exit;
         } else {
             $error = 'Kullanıcı adı veya şifre hatalı.';

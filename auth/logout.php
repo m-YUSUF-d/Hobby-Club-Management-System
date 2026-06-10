@@ -1,5 +1,5 @@
 <?php
-require_once 'config.php';
+require_once '../config.php';
 
 // Oturumu tamamen temizle ve sonlandır
 $_SESSION = [];
@@ -14,6 +14,6 @@ if (ini_get('session.use_cookies')) {
 
 session_destroy();
 
-header('Location: login.php');
+header('Location: /Hobby-Club-Management-System/auth/login.php');
 exit;
 ?>
